@@ -1,0 +1,44 @@
+spring: 
+   mvc: 
+      view:
+         prefix: /views/
+         suffix: .jsp
+#DB properties and Hibernate properties configuration
+
+   datasource: 
+       driver-class-name: oracle.jdbc.driver.OracleDriver
+       url: jdbc:oracle:thin:@localhost:1521:orcl
+       username: SSA_DEV
+       password: SSA_DEV
+   jpa:
+       hibernate:
+            ddl-auto: update
+       properties:
+          hibernate:     
+              show_sql: true
+              format_sql: true
+   mail:
+      host: smtp.gmail.com
+      port: 587
+      username: dibakarmaji14u@gmail.com
+      password: 8016244977
+      properties: 
+          mail: 
+             smtp: 
+                starttls: 
+                    enable: true
+                    required: true
+             auth: true
+             connectiontimeout: 50000
+             timeout: 50000
+             writetimeout: 50000      
+#Logging properties Configuration       
+logging:
+  file: IES-App-Logs.log
+  level:
+     root: INFO
+     com.usa.gov.ssa: DEBUG    
+server: 
+     servlet:
+        context-path: /DM
+     port: 6060           

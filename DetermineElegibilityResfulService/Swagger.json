@@ -1,0 +1,125 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"description": "Spring Boot REST API for Online Store",
+		"version": "1.0",
+		"title": "Spring Boot REST API",
+		"termsOfService": "Terms of service",
+		"contact": {
+			"name": "Dibakar Maji",
+			"url": "https://springframework.dibakar/about/",
+			"email": "dibakar@springfrmework.com"
+		},
+		"license": {
+			"name": "Apache License Version 2.0",
+			"url": "https://www.apache.org/licenses/LICENSE-2.0"
+		}
+	},
+	"host": "localhost:6060",
+	"basePath": "/DM",
+	"tags": [
+		{
+			"name": "de-controller",
+			"description": "This rest api is for determine plan eligibility"
+		}
+	],
+	"paths": {
+		"/determineElegibility": {
+			"post": {
+				"tags": [
+					"getPlaneEligibilityDetails"
+				],
+				"summary": "determineElegibility",
+				"operationId": "getPlanEligibilityDetailsUsingPOST",
+				"consumes": [
+					"application/xml",
+					"application/json"
+				],
+				"produces": [
+					"application/xml",
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "ipDetails",
+						"description": "ipDetails",
+						"required": true,
+						"schema": {
+							"$ref": "#/definitions/IndivPersonDetails"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "Successfully retrieved list",
+						"schema": {
+							"$ref": "#/definitions/PlanInfo"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "You are not authorized to view the resource"
+					},
+					"403": {
+						"description": "Accessing the resource you were trying to reach is forbidden"
+					},
+					"404": {
+						"description": "The resource you were trying to reach is not found"
+					}
+				}
+			}
+		}
+	},
+	"definitions": {
+		"PlanInfo": {
+			"type": "object",
+			"properties": {
+				"elegStatus": {
+					"type": "string",
+					"description": "This is a plan elegibility status"
+				},
+				"endDate": {
+					"type": "string",
+					"description": "This is a plan end date"
+				},
+				"perMonthAlotedMoney": {
+					"type": "number",
+					"format": "float",
+					"description": "This is a per month aloted money"
+				},
+				"planName": {
+					"type": "string",
+					"description": "This is a plan name"
+				},
+				"planStatus": {
+					"type": "string",
+					"description": "This is a plan status"
+				},
+				"startDate": {
+					"type": "string",
+					"description": "This is a plan start date"
+				}
+			}
+		},
+		"IndivPersonDetails": {
+			"type": "object",
+			"properties": {
+				"caseNum": {
+					"type": "string",
+					"description": "This is a case name"
+				},
+				"indivPerName": {
+					"type": "string",
+					"description": "This is a individual person name"
+				},
+				"planName": {
+					"type": "string",
+					"description": "This is a plan name"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,80 @@
+2019-03-28 10:43:12.907  INFO 6584 --- [main] rmineElegibilityResfulServiceApplication : Starting DetermineElegibilityResfulServiceApplication on DIBAKAR-MAJI with PID 6584 (D:\RealTimeJavaProject\DetermineElegibilityResfulService\target\classes started by DIBAKAR in D:\RealTimeJavaProject\DetermineElegibilityResfulService)
+2019-03-28 10:43:13.064  INFO 6584 --- [main] rmineElegibilityResfulServiceApplication : No active profile set, falling back to default profiles: default
+2019-03-28 10:43:33.367  INFO 6584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2019-03-28 10:43:33.697  INFO 6584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:43:33.705  INFO 6584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-28 10:43:33.793  INFO 6584 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\JAVA\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\JAVA\jdk1.8.0_181\jre\bin;E:/JAVA/jdk1.8.0_181/bin/../jre/bin/server;E:/JAVA/jdk1.8.0_181/bin/../jre/bin;E:/JAVA/jdk1.8.0_181/bin/../jre/lib/amd64;E:\gradle-5.0\bin;E:\apache-maven-3.5.4\bin;E:\JAVA\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;D:\Angular-7\AngularProject\node_modules\.bin;E:\Git\cmd;C:\Users\dibak\AppData\Local\ValidatorBuddy;C:\Users\dibak\AppData\Roaming\npm;C:\Users\dibak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dibak\AppData\Local\Microsoft\WindowsApps;;E:\sts-bundle\sts-3.9.7.RELEASE;;.]
+2019-03-28 10:43:34.992  INFO 6584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/DM]     : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:43:35.001  INFO 6584 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 21273 ms
+2019-03-28 10:43:41.361  INFO 6584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-28 10:43:43.915  INFO 6584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path '/DM'
+2019-03-28 10:43:44.020  INFO 6584 --- [main] rmineElegibilityResfulServiceApplication : Started DetermineElegibilityResfulServiceApplication in 38.994 seconds (JVM running for 61.104)
+2019-03-28 10:48:23.649  INFO 6584 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/DM]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-28 10:48:23.653  INFO 6584 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-28 10:48:23.773  INFO 6584 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 113 ms
+2019-03-28 10:48:25.207  WARN 6584 --- [http-nio-6060-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Could not unmarshal to [class com.usa.ri.ies.dm.binding.IndivPersonDetails]: unexpected element (uri:"", local:"indivpersondetails"). Expected elements are <{}indivPersonDetails>; nested exception is javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"indivpersondetails"). Expected elements are <{}indivPersonDetails>]
+2019-03-28 18:00:06.427  INFO 6584 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-03-28 18:00:06.560  INFO 6584 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-28 18:01:47.616  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : Starting DetermineElegibilityResfulServiceApplication on DIBAKAR-MAJI with PID 11944 (D:\RealTimeJavaProject\DetermineElegibilityResfulService\target\classes started by DIBAKAR in D:\RealTimeJavaProject\DetermineElegibilityResfulService)
+2019-03-28 18:01:47.657  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : No active profile set, falling back to default profiles: default
+2019-03-28 18:01:48.122  INFO 11944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-28 18:01:48.124  INFO 11944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-28 18:01:58.706  INFO 11944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2019-03-28 18:01:58.913  INFO 11944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 18:01:58.916  INFO 11944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-28 18:01:58.962  INFO 11944 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\JAVA\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/JAVA/jdk1.8.0_181/bin/../jre/bin/server;E:/JAVA/jdk1.8.0_181/bin/../jre/bin;E:/JAVA/jdk1.8.0_181/bin/../jre/lib/amd64;E:\gradle-5.0\bin;E:\apache-maven-3.5.4\bin;E:\JAVA\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;D:\Angular-7\AngularProject\node_modules\.bin;E:\Git\cmd;C:\Users\dibak\AppData\Local\ValidatorBuddy;C:\Users\dibak\AppData\Roaming\npm;C:\Users\dibak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dibak\AppData\Local\Microsoft\WindowsApps;;E:\sts-bundle\sts-3.9.7.RELEASE;;.]
+2019-03-28 18:01:59.857  INFO 11944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/DM]     : Initializing Spring embedded WebApplicationContext
+2019-03-28 18:01:59.862  INFO 11944 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 11736 ms
+2019-03-28 18:02:02.927  INFO 11944 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-28 18:02:03.219  INFO 11944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-28 18:02:04.135  INFO 11944 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-28 18:02:04.259  INFO 11944 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-03-28 18:02:04.410  INFO 11944 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-28 18:02:06.221  INFO 11944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path '/DM'
+2019-03-28 18:02:06.245  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : Started DetermineElegibilityResfulServiceApplication in 23.105 seconds (JVM running for 56.382)
+2019-03-28 18:03:03.178  INFO 11944 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/DM]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-28 18:03:03.186  INFO 11944 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-28 18:03:03.238  INFO 11944 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+2019-03-28 18:03:03.487  WARN 11944 --- [http-nio-6060-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Path represents URL or has "url:" prefix: [http:/localhost:6060/DM/v2/api-docs]
+2019-03-28 18:07:33.040  WARN 11944 --- [http-nio-6060-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json' not supported]
+2019-03-28 18:09:48.054  INFO 11944 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-28 18:09:50.657  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : Starting DetermineElegibilityResfulServiceApplication on DIBAKAR-MAJI with PID 11944 (D:\RealTimeJavaProject\DetermineElegibilityResfulService\target\classes started by DIBAKAR in D:\RealTimeJavaProject\DetermineElegibilityResfulService)
+2019-03-28 18:09:50.666  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : No active profile set, falling back to default profiles: default
+2019-03-28 18:09:54.055  INFO 11944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2019-03-28 18:09:54.064  INFO 11944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 18:09:54.070  INFO 11944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-28 18:09:54.172  INFO 11944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/DM]     : Initializing Spring embedded WebApplicationContext
+2019-03-28 18:09:54.175  INFO 11944 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3484 ms
+2019-03-28 18:09:55.118  INFO 11944 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-28 18:09:55.169  INFO 11944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-28 18:09:55.494  INFO 11944 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-28 18:09:55.498  INFO 11944 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-03-28 18:09:55.517  INFO 11944 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-28 18:09:55.675  INFO 11944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path '/DM'
+2019-03-28 18:09:55.684  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : Started DetermineElegibilityResfulServiceApplication in 5.38 seconds (JVM running for 525.821)
+2019-03-28 18:09:55.700  INFO 11944 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-28 18:10:05.854  INFO 11944 --- [http-nio-6060-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/DM]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-28 18:10:05.857  INFO 11944 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-28 18:10:05.869  INFO 11944 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-03-28 18:10:05.874  WARN 11944 --- [http-nio-6060-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json' not supported]
+2019-03-28 18:11:02.609  WARN 11944 --- [http-nio-6060-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-03-28 18:11:02.625  WARN 11944 --- [http-nio-6060-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-03-28 18:14:07.007  INFO 11944 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-28 18:14:12.024  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : Starting DetermineElegibilityResfulServiceApplication on DIBAKAR-MAJI with PID 11944 (D:\RealTimeJavaProject\DetermineElegibilityResfulService\target\classes started by DIBAKAR in D:\RealTimeJavaProject\DetermineElegibilityResfulService)
+2019-03-28 18:14:12.031  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : No active profile set, falling back to default profiles: default
+2019-03-28 18:14:15.709  INFO 11944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2019-03-28 18:14:15.730  INFO 11944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 18:14:15.732  INFO 11944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-28 18:14:15.880  INFO 11944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/DM]     : Initializing Spring embedded WebApplicationContext
+2019-03-28 18:14:15.886  INFO 11944 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3845 ms
+2019-03-28 18:14:17.350  INFO 11944 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-28 18:14:17.424  INFO 11944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-28 18:14:18.033  INFO 11944 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-28 18:14:18.046  INFO 11944 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-03-28 18:14:18.109  INFO 11944 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-28 18:14:18.586  INFO 11944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path '/DM'
+2019-03-28 18:14:18.601  INFO 11944 --- [restartedMain] rmineElegibilityResfulServiceApplication : Started DetermineElegibilityResfulServiceApplication in 6.766 seconds (JVM running for 788.739)
+2019-03-28 18:14:18.620  INFO 11944 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-28 18:14:32.683  INFO 11944 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/DM]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-28 18:14:32.699  INFO 11944 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-28 18:14:32.731  INFO 11944 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
